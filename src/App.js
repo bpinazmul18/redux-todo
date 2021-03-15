@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+import "./App.css";
+import Input from "./components/input";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Programmer!</h1>
+      {/*todo list*/}
+      {/*done*/}
+      <Input />
     </div>
   );
 }
