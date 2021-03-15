@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   todoList: [],
@@ -15,5 +15,7 @@ const slice = createSlice({
 });
 
 export const { saveTodo } = slice.actions;
+
+export const selectTodoList = (state) => state.todos.todoList;
 
 export default slice.reducer;
